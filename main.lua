@@ -5,6 +5,7 @@ TELA_ALT = 360
 
 function love.load()
     love.window.setMode(TELA_LARG,TELA_ALT, {resizable = false})
+    love.window.setTitle("PongLove! 1.0v")
     state = "menu"
     
 end
